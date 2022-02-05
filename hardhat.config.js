@@ -3,7 +3,8 @@ const { utils } = require("ethers");
 const fs = require("fs");
 const chalk = require("chalk");
 const config = require("./config");
-
+require("@typechain/hardhat");
+require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-waffle");
 require("@tenderly/hardhat-tenderly");
 

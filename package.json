@@ -5,11 +5,14 @@
   "license": "MIT",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@typechain/ethers-v5": "^9.0.0",
+    "@typechain/hardhat": "^4.0.0",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-prettier": "^3.4.0"
+    "eslint-plugin-prettier": "^3.4.0",
+    "typechain": "^7.0.0"
   },
   "dependencies": {
     "@nomiclabs/hardhat-etherscan": "^2.1.7",
@@ -27,6 +30,7 @@
     "node-watch": "^0.7.0",
     "qrcode-terminal": "^0.12.0",
     "ramda": "^0.27.1",
+    "ts-generator": "^0.1.1",
     "web3": "^1.7.0",
     "web3-eth-contract": "^1.7.0",
     "zeppelin-solidity": "^1.12.0"
