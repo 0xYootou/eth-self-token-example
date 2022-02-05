@@ -1,0 +1,41 @@
+{
+  "name": "@scaffold-eth/hardhat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-prettier": "^3.4.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@openzeppelin/contracts": "^4.3.3",
+    "@tenderly/hardhat-tenderly": "^1.0.10",
+    "chai": "^4.2.0",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "^3.1.1",
+    "ethers": "^5.5.2",
+    "hardhat": "2.6.0",
+    "hardhat-deploy": "^0.9.0",
+    "hardhat-gas-reporter": "^1.0.4",
+    "node-watch": "^0.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "ramda": "^0.27.1",
+    "web3": "^1.7.0",
+    "web3-eth-contract": "^1.7.0",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "scripts": {
+    "chain": "hardhat node --network hardhat --no-deploy",
+    "deploytest": "npx hardhat run --network testnet scripts/deploy.js",
+    "compile": "hardhat compile",
+    "deploy": "npx hardhat run --network mainnet scripts/deploy.js",
+    "mint": "hardhat run scripts/mint.js"
+  }
+}

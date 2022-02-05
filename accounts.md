@@ -1,0 +1,4 @@
+Deploying contracts with the account: 0x122D232796494FE2b687065C7182674209a2F7Ba
+Account balance: 1000000000000000000
+TokenPET symbol is: YuTou
+TokenPET deployed to: 0xeD0F31001f895D4Eb8F2b63A5EF46A27CB27AD7a
